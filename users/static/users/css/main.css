@@ -1,0 +1,293 @@
+@font-face {
+    font-family: "DimaBarf2";
+    src:url("/static/users/fonts/DimaBarf2.woff") format('woff'); 
+}
+
+@font-face {
+    font-family: "BNazanin";
+    src:url("/static/users/fonts/BNazanin.eot") format('eot'),
+        url("/static/users/fonts/BNazanin.woff") format('woff'),
+        url("/static/users/fonts/BNazanin.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "yekan-regular";
+    src:url("/static/users/fonts/yekan-regular.eot") format('eot'),
+        url("/static/users/fonts/yekan-regular.woff") format('woff'),
+        url("/static/users/fonts/yekan-regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Yekan";
+    src:url("/static/users/fonts/Yekan.eot") format('eot'),
+        url("/static/users/fonts/Yekan.woff") format('woff'),
+        url("/static/users/fonts/Yekan.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Shabnam-FD";
+    src:url("/static/users/fonts/Shabnam-FD.eot") format('eot'),
+        url("/static/users/fonts/Shabnam-FD.woff") format('woff'),
+        url("/static/users/fonts/Shabnam-FD.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IranianSans";
+    src: url("/static/users/fonts/Iranian-Sans.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background: #fafafa;
+    font-family: "Shabnam-FD", "BNazanin", Helvetica, Arial, sans-serif;
+}
+
+body {
+    text-align: right;
+    background: #fafafa;
+    font-family: "Shabnam-FD", "BNazanin", Helvetica, Arial, sans-serif;
+    color: #333;
+    margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #444;
+}
+
+ul {
+    margin: 0;
+}
+
+nav {
+    direction: rtl;
+    font-family: "BNazanin", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+#lblCartCount {
+    font-size: 12px;
+    background: #ff0000;
+    color: #fff;
+    padding: 3px 5px 0 5px;
+    vertical-align: top;
+    /*margin-left: -10px;*/
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+    background-color: #c67605;
+}
+
+.col-lg-4, .col-lg-6, .col-lg-8, .col-lg-12 {
+    margin-top: 10px;
+}
+
+.main-logo {
+    float: right;
+    margin: 0;
+    position: fixed;
+    right: 8vw;
+    top: 10vh;
+}
+
+.bg-steel {
+    background-color: #5f788a;
+}
+
+.site-header .navbar-nav .navbar-link {
+    color: #cbd5db;
+}
+
+.site-header .navbar-nav .navbar-link:hover {
+    color: #fff;
+}
+
+.site-header .navbar-nav .navbar-link.active {
+    font-weight: 500;
+}
+
+.content-section {
+    direction: rtl;
+    text-align: right;
+    background: #fff;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.article-title {
+    color: #444;
+}
+
+a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+}
+
+.article-content {
+    white-space: pre-line;
+}
+
+.article-img {
+    height: 65px;
+    width: 65px;
+    margin-left: 16px;
+}
+
+.product-img {
+    height: 225px;
+    width: 287px;
+}
+
+.article-metadata {
+    direction: initial;
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.account-img {
+    width: 125px;
+    height: 125px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+.account-heading {
+    font-size: 2rem;
+}
+
+.box-element {
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.product {
+    border-radius: 0 0 4px 4px;
+}
+
+.bg-dark {
+    background-color: #4f868c !important;
+}
+
+#cart-icon {
+    width: 25px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#cart-total {
+    display: block;
+    text-align: center;
+    color: #fff;
+    background-color: red;
+}
+
+.add-btn {
+    font-size: 10px;
+}
+
+.view-btn {
+    font-size: 10px;
+}
+
+.cart {
+    /*background: no-repeat right center;*/
+    border-right: 1px solid #ececec;
+    border-collapse: separate;
+    border-spacing: 15px;
+    /*background-image: url("/static/blog/img/icon/shopping-cart-white.png");*/
+}
+
+.zplogo {
+    /*background: no-repeat left center;*/
+    width: 25px;
+    height: 25px;
+    /*background-image: url("/static/blog/img/icon/zplogo.png");*/
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+.row-image {
+    width: 100px;
+}
+
+.cart-row {
+    display: flex;
+    align-items: flex-stretch;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+}
+
+.quantity {
+    display: inline-block;
+    font-weight: 700;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+.chg-quantity {
+    width: 12px;
+    cursor: pointer;
+    display: block;
+    margin-top: 2px;
+    transition: 0.1s;
+}
+
+.form-field {
+    /*width: 250px;*/
+    display: inline-block;
+    padding: 5px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.store-price {
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    text-align: right;
+    direction: rtl;
+}
+
+.size {
+    width: 13vw;
+}

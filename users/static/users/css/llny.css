@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "DimaBarf2";
+    src:url("/static/users/fonts/DimaBarf2.woff") format('woff'); 
+}
+
+@font-face {
+    font-family: "BNazanin";
+    src:url("/static/users/fonts/BNazanin.eot") format('eot'),
+        url("/static/users/fonts/BNazanin.woff") format('woff'),
+        url("/static/users/fonts/BNazanin.ttf") format('truetype');
+}
+
+div,ul,li,a,span,form,td,tr,table,h1, h2, h3, h4, h5, h6,tr,ol{
+direction: rtl;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background: #fafafa;
+    font-family: "BNazanin", Helvetica, Arial, sans-serif;
+    padding-top: 100px;
+}
+
+a {
+    color: #222222;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    margin-top: 20px;
+}
+
+.alert {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    color:#3c763d;
+    background-color:#dff0d8;
+    border-color:#d6e9c6;
+}
+
+.alert-success-login {
+    color:#3c763d;
+    background-color:#dff0d8;
+    border-color:#d6e9c6;
+}
+
+.alert-welcome {
+    font-size: 5px;
+    font-color: #3c763d;
+}
+
+.alert-error {
+    color:#8a6d3b;
+    background-color:#fcf8e3;
+    border-color:#faebcc
+}
+
+.alert-danger {
+    color:#a94442;
+    background-color:#f2dede;
+    border-color:#ebccd1
+}
+
+.ut-tbody tr:last-child{
+    border-bottom:3px solid #838383;
+}
+
+.tab-link {
+    background: no-repeat left center;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    margin-left: 1px;
+}
+.tab-link.add {background-image: url(/static/users/img/add.png);}
+.tab-link.del {background-image: url(/static/users/img/del.png);}
+.tab-link.edit {background-image: url(/static/users/img/edit.png);}
+
+.f-12 {
+    font-size: 12px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, button, textarea {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 7px;
+    background: #f7f7f7;
+}
+
+form input:focus, button:focus, textarea:focus {
+    background: #fff;
+}
+
+form fieldset {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+form legend {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}

@@ -1,0 +1,30 @@
+<table class="table table-bordered f-12">
+	<thead>
+		<tr>
+			<th scope="col">#</th>
+			<th scope="col">شماره کاربر</th>
+			<th scope="col">آدرس ایمیل</th>
+			<th scope="col">نوع کاربر</th>
+			<th scope="col">نام - نام خانوادگی</th>
+			<th scope="col">آخرین ورود</th>
+			<th scope="col">تعداد ورود</th>
+			<th scope="col">شهر نماینده</th>
+		</tr>
+	</thead>
+	<tbody class="ut-tbody">
+		{% for user in users %}
+			<tr>
+				<th scope="row">
+					<input class="form-check-input" type="checkbox" value="">
+				</th>
+				<td></td>
+				<td>{{user.email}}</td>
+				<td>{{user.user_type}}</td>
+				<td>{{user.first_name}} {{user.last_name}}</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		{% endfor %}
+	</tbody>
+</table>

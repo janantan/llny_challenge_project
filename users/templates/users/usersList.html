@@ -1,0 +1,41 @@
+{% extends 'users/base.html' %}
+{% block body %}
+	<div class="content-section">
+		<fieldset>
+			<div class="p-1 bg-info">
+				<small>
+					<span class="text-white">لیست کاربران</span>
+				</small>
+			</div>
+			<div class="p-1 border-bottom">
+				<span class="mb-1">
+					<a href="#" class="tab-link add" data-toggle="modal" data-target="#addModal" data-backdrop="static" data-keyboard="false"></a>
+					<a href="#" class="tab-link del"></a>
+					<a href="#" class="tab-link edit"></a>
+				</span>
+			</div>
+			<div class="p-1 mt-2">
+				<form>
+					<div class="d-inline-block">
+						<label for="content-num"><small>نمایش محتویات</small>
+							<select id="content-num" name="content-num" style="width: 100px;">
+								<option value="1">1</option>
+							</select>
+						</label>
+					</div>
+					<div class="pull-left">
+						<label for="search"><small>جستجو</small>
+							<input type="text" name="search" id="search" class="text-left" style="padding: 2px; width: 100px;">
+						</label>
+					</div>
+				</form>
+			</div>
+			<div>
+				{% include 'users/includes/_usersTable.html' %}
+			</div>
+			<div class="pull-left f-12">
+				{% include 'users/includes/_paginating.html' %}
+			</div>
+		</fieldset>
+	</div>
+{% endblock body %}
